@@ -23,7 +23,7 @@ void SchoolSystem::Run()
 			break;
 
 		case 2: 
-			std::cout << "Vad heter eleven du vill ta bort ifrån systemet?\n";
+			std::cout << "Vad heter eleven du vill ta bort ifrån systemet??\n";
 			std::cin >> studentName;
 			RemoveStudent(studentName);
 			break;
